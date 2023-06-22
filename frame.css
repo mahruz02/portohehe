@@ -1,0 +1,19 @@
+.vector-icon66 {
+  position: absolute;
+  height: 66.67%;
+  width: 66.67%;
+  top: 16.67%;
+  right: 16.66%;
+  bottom: 16.67%;
+  left: 16.67%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.frame {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  overflow: hidden;
+  display: none;
+}

@@ -1,0 +1,24 @@
+.ant-designgithub-filled-icon5,
+.frame-icon7 {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame-icon7 {
+  width: 40px;
+  height: 40px;
+  display: none;
+}
+.ant-designgithub-filled-icon5 {
+  width: 36.03px;
+  height: 36.03px;
+}
+.frame-parent {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-base);
+}

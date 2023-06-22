@@ -1,0 +1,30 @@
+.vector-icon64 {
+  position: absolute;
+  height: 87.5%;
+  width: 87.5%;
+  top: 6.25%;
+  right: 6.25%;
+  bottom: 6.25%;
+  left: 6.25%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.ant-designbehance-circle-fill-child {
+  position: absolute;
+  height: 93.75%;
+  width: 93.75%;
+  top: 3.13%;
+  right: 3.13%;
+  bottom: 3.12%;
+  left: 3.12%;
+  border-radius: 50%;
+  background-color: var(--new-light);
+}
+.ant-designbehance-circle-fill {
+  position: relative;
+  width: 100%;
+  height: 36.03px;
+  overflow: hidden;
+  display: none;
+}

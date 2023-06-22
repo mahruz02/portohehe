@@ -1,0 +1,18 @@
+.vector-icon65 {
+  position: absolute;
+  height: 96%;
+  width: 96%;
+  top: 2%;
+  right: 2%;
+  bottom: 2%;
+  left: 2%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.entypo-sociallinkedin-with-ci {
+  position: relative;
+  width: 100%;
+  height: 36.03px;
+  overflow: hidden;
+}

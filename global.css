@@ -1,11 +1,48 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 body {
-  @apply leading-[normal] m-0;
+  margin: 0;
+  line-height: normal;
 }
-*,
-::before,
-::after {
-  border-width: 0;
+
+:root {
+  /* fonts */
+  --font-spartan: Spartan;
+
+  /* font sizes */
+  --font-size-5xl: 24px;
+  --font-size-sm: 14px;
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+  --font-size-base: 16px;
+  --font-size-13xl: 32px;
+  --font-size-19xl: 38px;
+  --font-size-xs: 12px;
+
+  /* Colors */
+  --color-gray-100: #928a97;
+  --color-gray-200: #000c24;
+  --color-gray-300: #0a0a0a;
+  --color-gray-400: rgba(146, 138, 151, 0.27);
+  --color-white: #fff;
+  --color-black: #000;
+  --color-tomato: #f44336;
+  --color-silver: #c4c4c4;
+  --color-aquamarine: #5be7c3;
+  --new-light: #838397;
+
+  /* Gaps */
+  --gap-lg: 18px;
+  --gap-45xl: 64px;
+  --gap-base: 16px;
+
+  /* Paddings */
+  --padding-base: 16px;
+  --padding-5xl: 24px;
+  --padding-5xs: 8px;
+  --padding-xs: 12px;
+  --padding-lgi: 19px;
+  --padding-7xl: 26px;
+
+  /* border radiuses */
+  --br-9xs: 4px;
+  --br-16xl: 35px;
 }

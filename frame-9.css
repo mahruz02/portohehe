@@ -1,0 +1,37 @@
+.home1 {
+  position: relative;
+  color: var(--color-tomato);
+}
+.about1,
+.resume1 {
+  position: relative;
+  font-weight: 500;
+}
+.resume1 {
+  line-height: 128.7%;
+}
+.home-root,
+.resume-container {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.resume-container {
+  border-radius: var(--br-9xs);
+  background-color: var(--color-gray-300);
+  border: 2px solid var(--color-aquamarine);
+  display: none;
+  padding: var(--padding-lgi) var(--padding-7xl);
+  font-size: var(--font-size-xl);
+  color: var(--color-aquamarine);
+}
+.home-root {
+  position: relative;
+  width: 100%;
+  display: flex;
+  gap: var(--gap-45xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--color-gray-100);
+  font-family: var(--font-spartan);
+}

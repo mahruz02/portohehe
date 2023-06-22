@@ -1,0 +1,26 @@
+.html55 {
+  position: relative;
+  line-height: 170%;
+  font-weight: 500;
+}
+.html5-wrapper1,
+.instance-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.html5-wrapper1 {
+  border-radius: var(--br-9xs);
+  background-color: var(--color-gray-100);
+  padding: var(--padding-5xs) var(--padding-xs);
+}
+.instance-parent {
+  position: relative;
+  width: 100%;
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-white);
+  font-family: var(--font-spartan);
+}
